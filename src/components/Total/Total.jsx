@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 
 export const Total = () => {
-  const marks = [30, 40, 55, 66, 77];
+  const marks = [70, 78, 78, 66, 77];
   return (
     <>
       <Row>

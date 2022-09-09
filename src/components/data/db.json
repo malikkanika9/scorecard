@@ -1,96 +1,96 @@
 {
-    "part-1": [
+    "part_1": [
       {
         "id": 1,
         "subject": "English",
         "FA": 45,
-        "oral-1": 55,
+        "Oral1": 55,
         "BA": 74,
-        "Oral-2": 25
+        "Oral2": 25
       },
       {
         "id": 2,
         "subject": "Math",
         "FA": 57,
-        "oral-1": 50,
+        "Oral1": 50,
         "BA": 77,
-        "Oral-2": 88
+        "Oral2": 88
       },
       {
         "id": 3,
         "subject": "Sanskrit",
         "FA": 55,
-        "oral-1": 45,
+        "Oral1": 45,
         "BA": 64,
-        "Oral-2": 74
+        "Oral2": 74
       },
       {
         "id": 4,
         "subject": "Hindi",
         "FA": 55,
-        "oral-1": 45,
+        "Oral1": 45,
         "BA": 64,
-        "Oral-2": 74
+        "Oral2": 74
       },
       {
         "id": 5,
         "subject": "Science",
         "FA": 55,
-        "oral-1": 45,
+        "Oral1": 45,
         "BA": 64,
-        "Oral-2": 74
+        "Oral2": 74
       },
       {
         "id": 6,
         "subject": "Social Study",
         "FA": 55,
-        "oral-1": 45,
+        "Oral1": 45,
         "BA": 64,
-        "Oral-2": 74
+        "Oral2": 74
       },
       {
         "id": 7,
         "subject": "Computer",
         "FA": 55,
-        "oral-1": 45,
+        "Oral1": 45,
         "BA": 64,
-        "Oral-2": 74
+        "Oral2": 74
       },
       {
         "id": 8,
         "subject": "EVS",
         "FA": 55,
-        "oral-1": 45,
+        "Oral1": 45,
         "BA": 64,
-        "Oral-2": 74
+        "Oral2": 74
       },
       {
         "id": 9,
         "subject": "GK",
         "FA": 55,
-        "oral-1": 45,
+        "Oral1": 45,
         "BA": 64,
-        "Oral-2": 74
+        "Oral2": 74
       },
       {
         "id": 10,
         "subject": "Conversation",
         "FA": 55,
-        "oral-1": 45,
+        "Oral1": 45,
         "BA": 64,
-        "Oral-2": 74
+        "Oral2": 74
       },
       {
         "id": 11,
         "subject": "Drawings",
         "FA": 55,
-        "oral-1": 45,
+        "Oral1": 45,
         "BA": 64,
-        "Oral-2": 74
+        "Oral2": 74
       }
   
     ],
-    "part-2": [
+    "part_2": [
       {
         "id": 1,
        "topic":"Development and Maturity",
@@ -119,33 +119,33 @@
       {
         "id": 4,
        "topic":"Music",
-       "grade":"C"
+       "grade":"B"
       },
       {
         "id": 5,
-       "topic":"Dicipline",
-       "grade":"C+"
+       "topic":"Discipline",
+       "grade":"A+"
       },   {
         "id": 6,
        "topic":"Hand Work",
-       "grade":"C"
+       "grade":"B"
       },   {
         "id": 7,
        "topic":"Attitude Towards Home Work",
-       "grade":"C"
+       "grade":"B"
       },
       {
         "id": 8,
        "topic":"Craft",
-       "grade":"C"
+       "grade":"B"
       },
       {
         "id": 9,
-       "topic":"Regularigty and Punctuality",
+       "topic":"Regularity and Punctuality",
        "grade":"B"
       }
     ],
-    "part-3": [
+    "part_3": [
       {
         "N": 1,
         "Name": "Ram",

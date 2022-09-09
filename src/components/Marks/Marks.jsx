@@ -4,7 +4,7 @@ import { Col, Row } from "react-bootstrap";
 import data from "../data/db.json";
 
 export const Marks = () => {
-  const Data = data["part-1"];
+  const Data = data["part_1"];
 
   return (
     <>
@@ -22,23 +22,22 @@ export const Marks = () => {
               {item.subject}
             </Col>
             <Col className=" text-center border " xs lg="9">
-              {/*  out of marks */}
               <Row>
                 <Col className=" text-center border">
                   {item.FA}
                 </Col>
                 <Col className=" text-center border">
-                  {item["oral-1"]}
+                  {item["Oral1"]}
                 </Col>
                 <Col className=" text-center border ">
                   {item.BA}
                 </Col>
                 <Col className=" text-center border ">
-                  {item["Oral-2"]}
+                  {item["Oral2"]}
                 </Col>
                  
                 <Col className=" text-center border ">
-                  {item.BA +item.FA + item["Oral-2"] + item["oral-1"]}
+                  {item.BA +item.FA + item["Oral2"] + item["Oral1"]}
                 </Col>
               </Row>
             </Col>
