@@ -145,17 +145,41 @@
        "grade":"B"
       }
     ],
-    "part_3": [
+    "part_3":[
       {
-        "N": 1,
-        "Name": "Ram",
-        "marks": {
-          "Math": 70,
-          "english": 70,
-          "science": 78,
-          "History": 90,
-          "Physics": 80
-        }
+        "marks_range":"91-100",
+        "grade":"A1",
+        "remarks":"Outstanding"
+      },
+      {
+        "marks_range":"81-90",
+        "grade":"A2",
+        "remarks":"Excellent"
+      },
+      {
+        "marks_range":"71-80",
+        "grade":"B1",
+        "remarks":"Very Good"
+      },
+      {
+        "marks_range":"61-70",
+        "grade":"B2",
+        "remarks":"Good"
+      },
+      {
+        "marks_range":"51-60",
+        "grade":"C1",
+        "remarks":"Satisfactory"
+      },
+      {
+        "marks_range":"41-50",
+        "grade":"C2",
+        "remarks":"Unsatisfactory"
+      },
+      {
+        "marks_range":"<40",
+        "grade":"D",
+        "remarks":"Fail"
       }
     ]
-  }
+}

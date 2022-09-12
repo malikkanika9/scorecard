@@ -8,35 +8,34 @@ export const Marks = () => {
 
   return (
     <>
-      {Data &&
-        Data.map((item, i) => (
+      {Data.map((item, i) => (
           <Row  key={i}>
-            <Col className=" text-center border" xs lg="1">
+            <Col className=" text-center border-secondary border" xs lg="1">
               {item.id}
             </Col>
             <Col
-              className=" text-center border fst-normal  text-black "
+              className=" text-center border-secondary border fst-normal  text-black "
               xs
               lg="2"
             >
               {item.subject}
             </Col>
-            <Col className=" text-center border " xs lg="9">
+            <Col className=" text-center border-secondary border " xs lg="9">
               <Row>
-                <Col className=" text-center border">
+                <Col className=" text-center border-secondary border-right border-end">
                   {item.FA}
                 </Col>
-                <Col className=" text-center border">
+                <Col className=" text-center border-secondary border-end">
                   {item["Oral1"]}
                 </Col>
-                <Col className=" text-center border ">
+                <Col className=" text-center border-end">
                   {item.BA}
                 </Col>
-                <Col className=" text-center border ">
+                <Col className=" text-center border-secondary border-start ">
                   {item["Oral2"]}
                 </Col>
                  
-                <Col className=" text-center border ">
+                <Col className=" text-center border-secondary border-start ">
                   {item.BA +item.FA + item["Oral2"] + item["Oral1"]}
                 </Col>
               </Row>

@@ -12,11 +12,11 @@ export const TotalMarks = ({ id, sub, fa, Oral1, sa, Oral2, elem }) => {
       
       <Col className="text-center border col-7">
         <Row>
-          <Col className="border col-2">{fa}</Col>
-          <Col className="border col-2">{Oral1}</Col>
-          <Col className="border col-2">{sa}</Col>
+          <Col className="border border-secondarycol-2">{fa}</Col>
+          <Col className="border border-secondary col-2">{Oral1}</Col>
+          <Col className="border border-secondary col-2">{sa}</Col>
           <Col className="border col-2">{Oral2}</Col>
-        <Col className="border col-4">{fa + sa + Oral1 + Oral2}</Col>
+        <Col className="border border-secondary col-4">{fa + sa + Oral1 + Oral2}</Col>
         </Row>
       </Col>
     </Row>
